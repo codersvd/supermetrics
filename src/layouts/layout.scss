@@ -1,0 +1,16 @@
+.logout {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+
+  .logout-button {
+    background: coral;
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    margin: 10px;
+  }
+}

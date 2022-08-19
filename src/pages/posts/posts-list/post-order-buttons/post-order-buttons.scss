@@ -1,0 +1,22 @@
+#post-order-buttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  width: 100%;
+  div{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: cadetblue;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+
+    &:last-child{
+      transform: rotate(180deg);
+    }
+  }
+}

@@ -1,0 +1,21 @@
+#users-list {
+  width: 30vw;
+}
+
+.users {
+  width: 100%;
+
+  &__profiles {
+    padding: 15px 15px 20px;
+    display: grid;
+    row-gap: 8px;
+  }
+
+  &__picture {
+    max-width: 100%;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #ebeef3, 0 0 0 22px #f3f4f6;
+  }
+}
+

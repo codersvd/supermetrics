@@ -1,0 +1,32 @@
+.user_profile {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  padding: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 5px 7px -1px rgba(51, 51, 51, 0.23);
+  cursor: pointer;
+  transition: transform .25s cubic-bezier(.7, .98, .86, .98), box-shadow .25s cubic-bezier(.7, .98, .86, .98);
+  background-color: #fff;
+
+  &:hover, &.active {
+    transform: scale(1.1);
+    box-shadow: 0 9px 47px 11px rgba(51, 51, 51, 0.18);
+  }
+
+  .user_name {
+    color: #979cb0;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.64px;
+    margin-left: 12px;
+  }
+
+  .user_value {
+    color: #35d8ac;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: right;
+  }
+}
